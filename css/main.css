@@ -2615,6 +2615,8 @@ button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .header-menu__list-item-link {
@@ -2856,10 +2858,11 @@ button {
   overflow: hidden;
 }
 
-.card-hotel-location__slide-inner {
+.card-hotel-location__slide-gradient:before {
+  content: '';
   position: absolute;
   top: 0;
-  right: 0;
+  right: 1px;
   bottom: 0;
   left: 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 122, 223, 0.48)), to(rgba(255, 255, 255, 0.128)));
@@ -3020,6 +3023,7 @@ button {
 
 .icon-phone {
   color: white;
+  padding-right: 8px;
 }
 
 .view-options__booking-call-title {

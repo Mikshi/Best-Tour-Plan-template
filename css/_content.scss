@@ -27,16 +27,10 @@
   margin-top: 24px;
   margin-bottom: 20px;
 }
-.card-hotel__rating-stars{
-
-}
 .card-hotel-stars{
   display: flex;
   padding: 0;
   margin: 0;
-}
-.card-hotel-stars__item{
-
 }
 .icon-retingstar{
   font-size: 6px;
@@ -70,10 +64,6 @@
   color: #333;
   margin: 0;
 }
-
-.card-hotel-name__hotel{
-  
-}
 .card-hotel-name__user-rattings{
   background: #ec1f46;
   border-radius: 4px;  
@@ -88,9 +78,6 @@
   font-size: 8px;
   line-height: 10px;
   margin-bottom: 2px;
-}
-.card-hotel-name__user-rattings-counts{
-
 }
 .current{
   font-weight: bold;
@@ -112,24 +99,21 @@
   
 }
 
-
-
-.card-hotel-location__slide-inner{
+.card-hotel-location__slide-gradient:before{
+  content: '';
   position: absolute;
   top: 0;
-  right: 0;
+  right: 1px;
   bottom: 0;
   left: 0; 
   background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
 }
+
 .view-options{
   background-color: $secondary-color;
   border-radius: 8px;  
   padding: 28px;
   margin-bottom: 27px;
-}
-.view-options__price{
-
 }
 .view-options__price-wrap{
   display: flex;
@@ -225,6 +209,7 @@
 }
 .icon-phone{
   color: $wh-color;
+  padding-right: 8px;
 }
 .view-options__booking-call-title{
   color: $wh-color;

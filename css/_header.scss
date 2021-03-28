@@ -55,13 +55,6 @@
 .header-midle__row{
   align-items: center;
 }
-
-.header-midle__logo{
-
-}
-.header-midle__logo-link{
-
-}
 .header-midle__logo-img{
   display: inline-flex;
   height: 24px;
@@ -107,6 +100,7 @@
   list-style-type: none;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .header-menu__list-item-link{
   display: inline-flex;
