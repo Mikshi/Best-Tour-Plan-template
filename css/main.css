@@ -2516,7 +2516,7 @@ button {
   border-bottom: 1px solid #000;
 }
 
-.header-links__icon {
+.header-links__item-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2525,7 +2525,7 @@ button {
           align-items: center;
 }
 
-.header-links__icon:hover {
+.header-links__item-icon:hover {
   text-decoration: none;
 }
 
@@ -2830,6 +2830,9 @@ button {
 }
 
 .card-hotel-name__user-rattings-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-weight: 600;
   font-size: 8px;
   line-height: 10px;
