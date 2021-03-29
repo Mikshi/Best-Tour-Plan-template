@@ -2485,7 +2485,7 @@ button {
 .pre-header {
   padding-top: 24px;
   padding-bottom: 24px;
-  background-color: #fff;
+  background-color: #f5fafe;
 }
 
 .header-links {
@@ -2554,6 +2554,7 @@ button {
 
 .header-midle {
   padding: 40px 0px;
+  color: white;
 }
 
 .header-midle__row {
@@ -2771,6 +2772,14 @@ button {
   text-decoration: underline;
 }
 
+.breadcrumbs-list__item::after {
+  content: ' / ';
+}
+
+.breadcrumbs-list__item:last-child {
+  display: none;
+}
+
 .breadcrumbs-list__item-link {
   line-height: 13px;
   font-weight: 300;
@@ -2813,6 +2822,7 @@ button {
   font-size: 24px;
   line-height: 30px;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .card-hotel-name__hotel-link {
