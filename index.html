@@ -57,7 +57,7 @@
             <form class="header-midle__search-form">
               <input type="text" aria-label="search input" class="header-midle__search-form-input"
                 placeholder="Search Location">
-              <button class="header-midle__search-form-button" aria-label="search">
+              <button class="header-midle__search-form-button main-btn" aria-label="search">
                 <span class="icon icon-search" aria-hidden="true"></span>
               </button>
             </form>
@@ -78,7 +78,7 @@
                                 img/profile/profile_2x.webp 2x" type="image/webp">
                 <source srcset="img/profile/profile_1x.jpg 1x,
                                 img/profile/profile_2x.jpg 2x" type="image/jpeg">
-                <img src="img/profile/profile_1x.jpg" alt="user foto" class="header-midle__user-foto">
+                <img src="img/profile/profile_1x.jpg" loading="lazy" alt="user foto" class="header-midle__user-foto">
               </picture>
               <a href="#" class="header-midle__user-link">
                 <p class="header-midle__user-link-name">Nathan</p>
@@ -126,22 +126,22 @@
           <div class="row">
             <div class="col-lg-5">
               <div class="card-hotel-name__hotel">
-                <div class="card-hotel__rating-stars">
-                  <ul class="card-hotel-stars">
-                    <li class="card-hotel-stars__item"><span class="icon icon-retingstar"></span></li>
-                    <li class="card-hotel-stars__item"><span class="icon icon-retingstar"></span></li>
-                    <li class="card-hotel-stars__item"><span class="icon icon-retingstar"></span></li>
-                    <li class="card-hotel-stars__item"><span class="icon icon-retingstar"></span></li>
-                    <li class="card-hotel-stars__item"><span class="icon icon-retingstar"></span></li>
+                <div class="card-hotel-rating">
+                  <ul class="card-hotel-rating__stars">
+                    <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
+                    <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
+                    <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
+                    <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
+                    <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
                   </ul>
+                  <div class="card-hotel-name__hotel-wrap">
+                    <h1 class="card-hotel-name__hotel-name">GRAND HILTON HOTEL</h1>
+                    <a href="#" class="card-hotel-name__hotel-link main-btn">Flash Offers</a>
+                  </div>
+                  <p class="card-hotel-name__hotel-child">Half-Board/ All Inclusive + Complimentary Activities + Child
+                    Stays
+                    Free</p>
                 </div>
-                <div class="card-hotel-name__hotel-wrap">
-                  <h1 class="card-hotel-name__hotel-name">GRAND HILTON HOTEL</h1>
-                  <a href="#" class="card-hotel-name__hotel-link">Flash Offers</a>
-                </div>
-                <p class="card-hotel-name__hotel-child">Half-Board/ All Inclusive + Complimentary Activities + Child
-                  Stays
-                  Free</p>
               </div>
             </div>
             <div class="col-lg-1 offset-6">
@@ -165,7 +165,7 @@
                                   ./img/slider/slide_2x.webp 2x" type="image/webp">
                   <source srcset="./img/slider/slide_1x.jpg 1x,
                                   ./img/slider/slide_2x.jpg 2x" type="image/jpeg">
-                  <img src="./img/slider/slide_1.jpg" alt="hotel slide">
+                  <img src="./img/slider/slide_1.jpg" loading="lazy" alt="hotel slide">
                 </picture>
               </div>
             </div>
@@ -199,7 +199,7 @@
                     </div>
                   </div>
                 </div>
-                <button class="view-options__button">View Other Options</button>
+                <button class="view-options__button main-btn">View Other Options</button>
               </div>
               <div class="iframe-map">
                 <iframe title="My Locate Track Map" class="iframe-map__location"
@@ -380,6 +380,211 @@
                       <li class="package-summery__list-details-item"><span
                           class="package-summery__list-details-item-txt">Check Out Time 11:00</span></li>
                     </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="other-package">
+      <div class="container">
+        <h2 class="other-package-title">Other Packages</h2>
+      </div>
+      <div class="other-package-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="other-package-hotel other-package-hotel--active">
+                <div class="other-package-hotel__img">
+                  <div class="other-package-hotel__btn"><a href="#"
+                      class="other-package-hotel__btn-link other-package-hotel__btn-link--active main-btn">Flash
+                      Offer</a></div>
+                  <picture class="other-package-hotel__img-gradient">
+                    <source srcset="./img/packages/01/packages_blue_haven_1x.webp 1x,
+                                    ./img/packages/01/packages_blue_haven_2x.webp 2x" type="image/webp">
+                    <source srcset="./img/packages/01/packages_blue_haven_1x.jpg 1x,
+                                    ./img/packages/01/packages_blue_haven_2x.jpg 2x" type="image/jpeg">
+                    <img src="./img/packages/01/packages_blue_haven_1x.jpg" loading="lazy" alt="hotel foto package">
+                  </picture>
+                </div>
+                <div class="other-package-hotel__wrap">
+                  <div class="other-package-hotel__desc">
+                    <div class="card-hotel-rating">
+                      <ul class="card-hotel-rating__stars">
+                        <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
+                        <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
+                        <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
+                        <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
+                        <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
+                      </ul>
+                      <h3 class="other-package-hotel__desc-title">Hotel Blue Haven</h3>
+                    </div>
+                    <p class="other-package-hotel__desc-txt">Aute quis duis excepteur excepteur ipsum cat eiusmod
+                      consectetur enim laborum magna llit. Ipsum est fugiat velit ea llamco do esse ut in veniam sun in
+                      onsequat. Aute quis duis epteur excepteur ipsum occaecat eiusmod nsectetur enim laborum magna
+                      mollit. Ipsum est fugiat velit ea ullamco do</p>
+                    <ul class="other-package-hotel__desc-list">
+                      <li class="other-package-hotel__desc-list-item"><span class="icon icon-locpin"></span><span
+                          class="other-package-hotel__desc-list-item-title">1749 Wheeler Ridge Delaware</span>
+                      </li>
+                      <li class="other-package-hotel__desc-list-item"><span class="icon icon-user"></span><span
+                          class="other-package-hotel__desc-list-item-title">2 x Guests</span></li>
+                      <li class="other-package-hotel__desc-list-item"><span class="icon icon-home"></span><span
+                          class="other-package-hotel__desc-list-item-title">1 x Room</span></li>
+                    </ul>
+                    <div class="other-package-hotel__desc-wrap">
+                      <div class="other-package-hotel__desc-price">
+                        <span class="other-package-hotel__desc-price-discount">$ 10,500</span>
+                        <span class="other-package-hotel__desc-price-total">$ 8,500</span>
+                      </div>
+                      <button class="other-package-hotel__desc-btn main-btn">Book Now</button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="other-package-hotel">
+                <div class="other-package-hotel__img">
+                  <div class="other-package-hotel__btn"><a href="#" class="other-package-hotel__btn-link main-btn">Flash
+                      Offer</a></div>
+                  <picture class="other-package-hotel__img-gradient">
+                    <source srcset="./img/packages/02/packages_lux_belle_mare1x.webp 1x,
+                                    ./img/packages/02/packages_lux_belle_mare2x.webp 2x" type="image/webp">
+                    <source srcset="./img/packages/02/packages_lux_belle_mare1x.jpg 1x,
+                                    ./img/packages/02/packages_lux_belle_mare2x.jpg 2x" type="image/jpeg">
+                    <img src="./img/packages/02/packages_lux_belle_mare1x.jpg" loading="lazy" alt="hotel foto package">
+                  </picture>
+                </div>
+                <div class="other-package-hotel__desc">
+                  <h3 class="other-package-hotel__desc-title">LUX* Belle Mare</h3>
+                  <ul class="other-package-hotel__desc-list">
+                    <li class="other-package-hotel__desc-list-item"><span class="icon icon-locpin"></span><span
+                        class="other-package-hotel__desc-list-item-title">1749 Wheeler Ridge Delaware</span>
+                    </li>
+                    <li class="other-package-hotel__desc-list-item"><span class="icon icon-user"></span><span
+                        class="other-package-hotel__desc-list-item-title">2 x Guests</span></li>
+                    <li class="other-package-hotel__desc-list-item"><span class="icon icon-home"></span><span
+                        class="other-package-hotel__desc-list-item-title">1 x Room</span></li>
+                  </ul>
+                  <div class="other-package-hotel__desc-wrap">
+                    <div class="other-package-hotel__desc-price">
+                      <span class="other-package-hotel__desc-price-discount">$ 8,500</span>
+                      <span class="other-package-hotel__desc-price-total">$ 3,000</span>
+                    </div>
+                    <button class="other-package-hotel__desc-btn main-btn">Book Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="other-package-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="other-package-hotel">
+                <div class="other-package-hotel__img">
+                  <div class="other-package-hotel__btn"><a href="#" class="other-package-hotel__btn-link main-btn">Flash
+                      Offer</a></div>
+                  <picture class="other-package-hotel__img-gradient">
+                    <source srcset="./img/packages/03/packages_white_palace_1x.webp 1x,
+                                    ./img/packages/03/packages_white_palace_2x.webp 2x" type="image/webp">
+                    <source srcset="./img/packages/03/packages_white_palace_1x.jpg 1x,
+                                    ./img/packages/03/packages_white_palace_2x.jpg 2x" type="image/jpeg">
+                    <img src="./img/packages/03/packages_white_palace_1x.jpg" loading="lazy" alt="hotel foto package">
+                  </picture>
+                </div>
+                <div class="other-package-hotel__desc">
+                  <h3 class="other-package-hotel__desc-title">White Palace</h3>
+                  <ul class="other-package-hotel__desc-list">
+                    <li class="other-package-hotel__desc-list-item"><span class="icon icon-locpin"></span><span
+                        class="other-package-hotel__desc-list-item-title">1749 Wheeler Ridge Delaware</span>
+                    </li>
+                    <li class="other-package-hotel__desc-list-item"><span class="icon icon-user"></span><span
+                        class="other-package-hotel__desc-list-item-title">2 x Guests</span></li>
+                    <li class="other-package-hotel__desc-list-item"><span class="icon icon-home"></span><span
+                        class="other-package-hotel__desc-list-item-title">1 x Room</span></li>
+                  </ul>
+                  <div class="other-package-hotel__desc-wrap">
+                    <div class="other-package-hotel__desc-price">
+                      <span class="other-package-hotel__desc-price-discount">$ 10,500</span>
+                      <span class="other-package-hotel__desc-price-total">$ 9,500</span>
+                    </div>
+                    <button class="other-package-hotel__desc-btn main-btn">Book Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="other-package-hotel">
+                <div class="other-package-hotel__img">
+                  <div class="other-package-hotel__btn"><a href="#" class="other-package-hotel__btn-link main-btn">Flash
+                      Offer</a></div>
+                  <picture class="other-package-hotel__img-gradient">
+                    <source srcset="./img/packages/04/packages_luxury_place_1x.webp 1x,
+                                    ./img/packages/04/packages_luxury_place_2x.webp 2x" type="image/webp">
+                    <source srcset="./img/packages/04/packages_luxury_place_1x.jpg 1x,
+                                    ./img/packages/04/packages_luxury_place_2x.jpg 2x" type="image/jpeg">
+                    <img src="./img/packages/04/packages_luxury_place_1x.jpg" loading="lazy" alt="hotel foto package">
+                  </picture>
+                </div>
+                <div class="other-package-hotel__desc">
+                  <h3 class="other-package-hotel__desc-title">Luxury Place</h3>
+                  <ul class="other-package-hotel__desc-list">
+                    <li class="other-package-hotel__desc-list-item"><span class="icon icon-locpin"></span><span
+                        class="other-package-hotel__desc-list-item-title">1749 Wheeler Ridge Delaware</span>
+                    </li>
+                    <li class="other-package-hotel__desc-list-item"><span class="icon icon-user"></span><span
+                        class="other-package-hotel__desc-list-item-title">2 x Guests</span></li>
+                    <li class="other-package-hotel__desc-list-item"><span class="icon icon-home"></span><span
+                        class="other-package-hotel__desc-list-item-title">1 x Room</span></li>
+                  </ul>
+                  <div class="other-package-hotel__desc-wrap">
+                    <div class="other-package-hotel__desc-price">
+                      <span class="other-package-hotel__desc-price-discount">$ 4,500</span>
+                      <span class="other-package-hotel__desc-price-total">$ 2,500</span>
+                    </div>
+                    <button class="other-package-hotel__desc-btn main-btn">Book Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="other-package-hotel">
+                <div class="other-package-hotel__img">
+                  <div class="other-package-hotel__btn"><a href="#" class="other-package-hotel__btn-link main-btn">Flash
+                      Offer</a></div>
+                  <picture class="other-package-hotel__img-gradient">
+                    <source srcset="./img/packages/05/packages_hotel_five_star_1x.webp 1x,
+                                    ./img/packages/05/packages_hotel_five_star_2x.webp 2x" type="image/webp">
+                    <source srcset="./img/packages/05/packages_hotel_five_star_1x.jpg 1x,
+                                    ./img/packages/05/packages_hotel_five_star_2x.jpg 2x" type="image/jpeg">
+                    <img src="./img/packages/05/packages_hotel_five_star_1x.jpg" loading="lazy"
+                      alt="hotel foto package">
+                  </picture>
+                </div>
+                <div class="other-package-hotel__desc">
+                  <h3 class="other-package-hotel__desc-title">Hotel Five Star</h3>
+                  <ul class="other-package-hotel__desc-list">
+                    <li class="other-package-hotel__desc-list-item"><span class="icon icon-locpin"></span><span
+                        class="other-package-hotel__desc-list-item-title">1749 Wheeler Ridge Delaware</span>
+                    </li>
+                    <li class="other-package-hotel__desc-list-item"><span class="icon icon-user"></span><span
+                        class="other-package-hotel__desc-list-item-title">2 x Guests</span></li>
+                    <li class="other-package-hotel__desc-list-item"><span class="icon icon-home"></span><span
+                        class="other-package-hotel__desc-list-item-title">1 x Room</span></li>
+                  </ul>
+                  <div class="other-package-hotel__desc-wrap">
+                    <div class="other-package-hotel__desc-price">
+                      <span class="other-package-hotel__desc-price-discount">$ 6,500</span>
+                      <span class="other-package-hotel__desc-price-total">$ 3,500</span>
+                    </div>
+                    <button class="other-package-hotel__desc-btn main-btn">Book Now</button>
                   </div>
                 </div>
               </div>

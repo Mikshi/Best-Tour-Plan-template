@@ -24,14 +24,9 @@ button{
   border: none;
 }
 .box{
-  background-color: white;
+  background-color: $secondary-color;
   width: 100%;
-  height: 25px;
-  margin-bottom: 10px;
-}
-
-.icon-check:before {  
-  color: #fff;
+  height: 25px;  
 }
 .icon-email:before {  
   color: #bdbdbd;
@@ -43,9 +38,7 @@ button{
 .icon-insta:before {
   color: #bdbdbd;
 }
-.icon-locpin:before {
-  color: #fff;
-}
+
 .icon-search:before {
   color: #fff;
 }
