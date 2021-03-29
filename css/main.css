@@ -2318,6 +2318,12 @@ video, picture {
   max-width: 100%;
 }
 
+picture {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
 ul, li {
   list-style-type: none;
   padding: 0;
@@ -2390,6 +2396,10 @@ button {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-quotes:before {
+  content: "\e911";
 }
 
 .icon-calendar:before {
@@ -2802,6 +2812,13 @@ button {
   margin: 0;
 }
 
+.card-hotel-rating__stars-item {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 5px 0;
+}
+
 .icon-retingstar {
   font-size: 6px;
   color: #f2994a;
@@ -2880,6 +2897,9 @@ button {
 }
 
 .card-hotel-location__slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   border-radius: 8px;
   overflow: hidden;
@@ -3019,8 +3039,8 @@ button {
 }
 
 .view-options__booking {
-  margin-top: 10px;
-  margin-bottom: 18px;
+  margin-top: 8px;
+  margin-bottom: 13px;
 }
 
 .view-options__booking-wrap {
@@ -3062,6 +3082,12 @@ button {
 
 .view-options__button {
   padding: 13px;
+}
+
+.iframe-map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .iframe-map__location {
@@ -3484,4 +3510,172 @@ button {
 .other-package-hotel__desc-btn {
   padding: 12px 26px;
   width: auto;
+}
+
+/*-----------sec-4--------------*/
+.arrow-btn {
+  display: none;
+}
+
+.slide-people {
+  padding-bottom: 70px;
+}
+
+.slide-people-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slide-people-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #333;
+  padding-top: 40px;
+  padding-bottom: 115px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slide-people-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: white;
+  padding: 132px 90px 30px;
+  position: relative;
+}
+
+.slide-people-slider__content-profile {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.slide-people-user-foto {
+  border-radius: 50%;
+}
+
+.slide-people-slider__content-profile-user-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slide-people-slider__content-profile-user-name {
+  margin: 0;
+  color: #ec1f46;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  padding-bottom: 10px;
+}
+
+.slide-people-slider__content-profile-user-date {
+  margin: 0;
+  color: #333;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  padding-bottom: 5px;
+}
+
+.slide-people-slider__content-txt {
+  text-align: justify;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #333;
+  position: relative;
+  z-index: 2;
+}
+
+.flex-arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slide-people-slider__arrow {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.slide-people-slider__arrow-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+}
+
+.slide-people-slider__left-arrow {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+  font-size: 18px;
+}
+
+.slide-people-slider__rigth-arrow {
+  -webkit-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+          transform: rotate(270deg);
+  font-size: 18px;
+}
+
+.icon-quotes {
+  color: #f2f2f2;
+  font-size: 48px;
+}
+
+.slide-people-slider__content-quotes {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  top: 12px;
+  left: 64px;
+  bottom: 114px;
+  right: 60px;
+  z-index: 1;
+}
+
+.quotes-bottom {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
