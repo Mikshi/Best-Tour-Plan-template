@@ -2784,7 +2784,7 @@ button {
   content: ' / ';
 }
 
-.breadcrumbs-list__item:last-child {
+.breadcrumbs-list__item:last-child:after {
   display: none;
 }
 

@@ -17,7 +17,7 @@
   &::after{
     content: ' / ';
   }
-  &:last-child{
+  &:last-child:after{
     display: none;
   }
 }
@@ -673,9 +673,6 @@
   line-height: 45px;
   text-transform: uppercase;
   color: $wh-color;
-}
-.subs-section-email{
-
 }
 .subs-section__email-form{
   display: flex;   
