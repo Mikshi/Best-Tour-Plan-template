@@ -2322,12 +2322,6 @@ p {
   margin: 0;
 }
 
-picture {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
 ul, li {
   list-style-type: none;
   padding: 0;
@@ -3682,4 +3676,166 @@ button {
   -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
+}
+
+/*-----------sec-5--------------*/
+.subs-section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../img/bg/bg_1x.webp");
+  background-image: url("../img/bg/bg_1x.jpg");
+  background-size: cover;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .subs-section {
+    background-image: url("../img/bg/bg_2x.webp");
+    background-size: 50%, 50%;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .subs-section {
+    background-image: url("../img/bg/bg_2x.jpg");
+    background-size: 50%, 50%;
+  }
+}
+
+.subs-section-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subs-section-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 140px;
+  margin: 0;
+}
+
+.subs-section-title-sub {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  color: white;
+}
+
+.subs-section-title-txt {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.subs-section__email-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 350px;
+}
+
+.subs-section__email-form-input {
+  background-color: #f5fafe;
+  border: none;
+  border-radius: 6px 0 0 6px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #bdbdbd;
+  padding: 18px 32px;
+  min-width: 285px;
+}
+
+.subs-section__email-form-button {
+  background-color: #ec1f46;
+  border-radius: 0px 6px 6px 0px;
+  padding: 18px 16px;
+  width: auto;
+}
+
+/*-----------sec-6--------------*/
+.activities-section {
+  margin-bottom: 100px;
+}
+
+.activities-section-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 0;
+}
+
+.activities-section-card {
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.activities-section-card__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.activities-section-card__img-inner {
+  width: 100%;
+}
+
+.activities-section-card__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, rgba(196, 196, 196, 0)), to(#0A223D));
+  background: -webkit-linear-gradient(top, rgba(196, 196, 196, 0) 35%, #0A223D 100%);
+  background: -o-linear-gradient(top, rgba(196, 196, 196, 0) 35%, #0A223D 100%);
+  background: linear-gradient(180deg, rgba(196, 196, 196, 0) 35%, #0A223D 100%);
+  padding: 24px;
+}
+
+.activities-section-card__title {
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 24px;
+}
+
+.activities-section-card__button {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 6px 22px;
+  width: auto;
 }
