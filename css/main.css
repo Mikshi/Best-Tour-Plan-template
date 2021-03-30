@@ -2318,6 +2318,10 @@ video, picture {
   max-width: 100%;
 }
 
+p {
+  margin: 0;
+}
+
 picture {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -3565,7 +3569,7 @@ button {
 
 .slide-people-slider__content-profile {
   position: absolute;
-  top: -50px;
+  top: -45px;
   left: 0;
   right: 0;
   z-index: 10;

@@ -12,6 +12,9 @@ img,
 video,picture{
   max-width: 100%;
 }
+p{
+  margin: 0;
+}
 picture{
   display: inline-flex;
 }
