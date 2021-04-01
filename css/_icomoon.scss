@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'icomoon';
-  src: url('../fonts/icomoon.woff2?71b3k7') format('woff2');
+  src: url('../fonts/icomoon.woff2?qbg50d') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -33,72 +33,65 @@
 }
 
 .icon-quotes:before {
-  content: "\e911";  
+  content: "\e911";
+}
+.icon-arrow:before {
+  content: "\e910";
 }
 .icon-calendar:before {
   content: "\e900";
 }
-
 .icon-cart:before {
   content: "\e901";
 }
-
 .icon-check:before {
   content: "\e902";
 }
-
 .icon-down:before {
   content: "\e903";
 }
-
-.icon-email:before {
-  content: "\e904";
-}
-
 .icon-fb:before {
   content: "\e905";
 }
-
 .icon-gift:before {
   content: "\e906";
 }
-
 .icon-home:before {
   content: "\e907";
 }
-
 .icon-insta:before {
   content: "\e908";
 }
-
 .icon-locpin:before {
   content: "\e909";
 }
-
 .icon-phone:before {
   content: "\e90a";
 }
-
 .icon-search:before {
   content: "\e90b";
 }
-
 .icon-star:before {
   content: "\e90c";
 }
-
 .icon-user:before {
   content: "\e90d";
 }
-
 .icon-youtube:before {
   content: "\e90e";
 }
-
+.icon-email:before {
+  content: "\e904";
+}
+.icon-location-on:before {
+  content: "\e912";
+}
+.icon-phone-call:before {
+  content: "\e913";
+}
 .icon-retingstar:before {
   content: "\e90f";
 }
-
 .icon-menu:before {
   content: "\e9bd";
 }

@@ -646,14 +646,14 @@
 .subs-section{
   padding-top: 90px;
   padding-bottom: 90px;  
-  @include retina-background-image("../img/bg/bg", "webp", 50%, 50%);
-  @include retina-background-image("../img/bg/bg", "jpg", 50%, 50%);
+  @include retina-background-image("../img/bg/bg", "webp", 50%, 50%);  
   background-size: cover;
 }
 .subs-section-flex{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .subs-section-title{
   display: flex;
