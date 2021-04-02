@@ -138,26 +138,35 @@
 .card-hotel-location__slide{
   display: flex;
   position: relative;  
-  border-radius: 8px;
+  border-radius: 8px 8px 0px 0px;  
   overflow: hidden;
-  
+  @include media-breakpoint-up(lg) {   
+    border-radius: 8px;
+  }  
 }
 
-.card-hotel-location__slide-gradient:before{
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 1px;
-  bottom: 0;
-  left: 0; 
-  background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
+.card-hotel-location__slide-gradient{
+  display: flex;
+  width: 100%;  
+  &:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 1px;
+    bottom: 0;
+    left: 0; 
+    background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
+  }
 }
 
 .view-options{
   background-color: $secondary-color;
-  border-radius: 8px;  
+  border-radius: 0px 0px 8px 8px;
   padding: 28px;
   margin-bottom: 27px;
+  @include media-breakpoint-up(lg) {   
+    border-radius: 8px;
+  }  
 }
 .view-options__price-wrap{
   display: flex;
