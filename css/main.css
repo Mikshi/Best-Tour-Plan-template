@@ -4069,8 +4069,8 @@ button {
 
 /*-----------sec-5--------------*/
 .subs-section {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   background-image: url("../img/bg/bg_1x.webp");
   background-size: cover;
 }
@@ -4079,6 +4079,13 @@ button {
   .subs-section {
     background-image: url("../img/bg/bg_2x.webp");
     background-size: 50%, 50%;
+  }
+}
+
+@media (min-width: 576px) {
+  .subs-section {
+    padding-top: 90px;
+    padding-bottom: 90px;
   }
 }
 
@@ -4092,8 +4099,19 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .subs-section-flex {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 .subs-section-title {
@@ -4104,8 +4122,20 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-right: 140px;
-  margin: 0;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .subs-section-title {
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .subs-section-title {
+    padding-right: 140px;
+    margin: 0;
+  }
 }
 
 .subs-section-title-sub {
@@ -4128,30 +4158,65 @@ button {
   display: -ms-flexbox;
   display: flex;
   max-width: 350px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 992px) {
+  .subs-section__email-form {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 .subs-section__email-form-input {
   background-color: #f5fafe;
   border: none;
-  border-radius: 6px 0 0 6px;
+  border-radius: 6px;
   font-weight: 300;
   font-size: 14px;
   line-height: 18px;
   color: #bdbdbd;
   padding: 18px 32px;
   min-width: 285px;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 992px) {
+  .subs-section__email-form-input {
+    border-radius: 6px 0 0 6px;
+    margin-bottom: 0px;
+  }
 }
 
 .subs-section__email-form-button {
   background-color: #ec1f46;
-  border-radius: 0px 6px 6px 0px;
+  border-radius: 6px;
   padding: 18px 16px;
   width: auto;
 }
 
+@media (min-width: 992px) {
+  .subs-section__email-form-button {
+    border-radius: 0px 6px 6px 0px;
+  }
+}
+
 /*-----------sec-6--------------*/
 .activities-section {
-  margin-bottom: 100px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .activities-section {
+    margin-bottom: 100px;
+    text-align: left;
+  }
 }
 
 .activities-section-title {
@@ -4159,15 +4224,29 @@ button {
   font-size: 24px;
   line-height: 30px;
   text-transform: uppercase;
-  padding-top: 60px;
-  padding-bottom: 60px;
   margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .activities-section-title {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .activities-section-card {
   position: relative;
   border-radius: 6px;
   overflow: hidden;
+  margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+  .activities-section-card {
+    margin-bottom: 0;
+  }
 }
 
 .activities-section-card__img {
@@ -4192,9 +4271,9 @@ button {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   position: absolute;
   top: 0;
   right: 0;
@@ -4205,6 +4284,14 @@ button {
   background: -o-linear-gradient(top, rgba(196, 196, 196, 0) 35%, #0A223D 100%);
   background: linear-gradient(180deg, rgba(196, 196, 196, 0) 35%, #0A223D 100%);
   padding: 24px;
+}
+
+@media (min-width: 768px) {
+  .activities-section-card__inner {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
 }
 
 .activities-section-card__title {
@@ -4219,8 +4306,14 @@ button {
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
-  padding: 6px 22px;
+  padding: 16px;
   width: auto;
+}
+
+@media (min-width: 768px) {
+  .activities-section-card__button {
+    padding: 6px 22px;
+  }
 }
 
 .footer {

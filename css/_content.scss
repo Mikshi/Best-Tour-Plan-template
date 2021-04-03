@@ -783,22 +783,35 @@
 /*-----------sec-5--------------*/
 
 .subs-section{
-  padding-top: 90px;
-  padding-bottom: 90px;  
+  padding-top: 45px;
+  padding-bottom: 45px;  
   @include retina-background-image("../img/bg/bg", "webp", 50%, 50%);  
   background-size: cover;
+  @include media-breakpoint-up(sm) {     
+    padding-top: 90px;
+    padding-bottom: 90px; 
+  }
 }
 .subs-section-flex{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+  @include media-breakpoint-up(md) {     
+    flex-direction: row;
+  } 
 }
 .subs-section-title{
   display: flex;
   flex-direction: column;  
-  padding-right: 140px;
-  margin: 0;
+	margin-bottom: 30px;  
+  @include media-breakpoint-up(md) {     
+    padding-right: 40px; 
+  }
+  @include media-breakpoint-up(lg) {     
+    padding-right: 140px; 
+    margin: 0;
+  }
 }
 .subs-section-title-sub{
   font-weight: 300;
@@ -816,44 +829,69 @@
 .subs-section__email-form{
   display: flex;   
   max-width: 350px;
+  flex-direction: column; 
+  @include media-breakpoint-up(lg) {     
+    flex-direction: row;
+  }
 }
 .subs-section__email-form-input{
   background-color: $bg-color;
   border:none;
-  border-radius: 6px 0 0 6px;
+  border-radius: 6px;
   font-weight: 300;
   font-size: 14px;
   line-height: 18px;
   color:#bdbdbd;
   padding: 18px 32px;
   min-width: 285px;
+  margin-bottom: 15px;
+  @include media-breakpoint-up(lg) {     
+    border-radius: 6px 0 0 6px;
+    margin-bottom: 0px;
+  }
 }
 
 .subs-section__email-form-button{
   background-color: $primary-color;
-  border-radius: 0px 6px 6px 0px;
+  border-radius: 6px;
   padding: 18px 16px;
   width: auto;
+  @include media-breakpoint-up(lg) {     
+    border-radius: 0px 6px 6px 0px;
+  }
 }
 
 /*-----------sec-6--------------*/
 
 .activities-section{
-  margin-bottom: 100px;
+  margin-bottom: 25px;
+	text-align: center;
+  @include media-breakpoint-up(md) {     
+    margin-bottom: 100px;
+    text-align: left;
+  }
 }
 .activities-section-title{
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
-  text-transform: uppercase;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  text-transform: uppercase;  
   margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  @include media-breakpoint-up(md) {     
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 .activities-section-card{
   position: relative;
   border-radius: 6px;
   overflow: hidden;  
+  margin-bottom: 25px;
+  @include media-breakpoint-up(md) {     
+    margin-bottom: 0;
+  }
 }
 .activities-section-card__img{
   display: flex;
@@ -866,7 +904,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: flex-start;
+  align-items: stretch;  
   position: absolute;
   top: 0;
   right: 0;
@@ -874,6 +912,9 @@
   left: 0;
   background: linear-gradient(180deg, rgba(196, 196, 196, 0) 35%, #0A223D 100%);
   padding: 24px;
+  @include media-breakpoint-up(md) {     
+    align-items: flex-start;
+  }
 }
 .activities-section-card__title{ 
   color: white;
@@ -886,6 +927,9 @@
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
-  padding: 6px 22px;
+  padding: 16px;
   width: auto;
+  @include media-breakpoint-up(md) {     
+    padding: 6px 22px;
+  }
 }
