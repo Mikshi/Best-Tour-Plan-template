@@ -330,11 +330,17 @@
   justify-content: center;
 }
 .disclaimer-wrap{
-  padding-top: 102px;
-  padding-bottom: 46px;
+  padding-top: 50px;
+  padding-bottom: 36px;  
+  @include media-breakpoint-up(md) { 
+    padding-top: 102px;
+    padding-bottom: 46px;
+  } 
 }
 .disclaimer__list{
-  display: flex;  
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .disclaimer__list-item{
   padding-right: 10px;

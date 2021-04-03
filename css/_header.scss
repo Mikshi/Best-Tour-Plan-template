@@ -234,6 +234,7 @@
 .header-midle__user-link{
   display: flex;
   align-items: center;
+  border-bottom: 1px solid transparent;
   &:hover {
     border-bottom: 1px solid black;
   }
