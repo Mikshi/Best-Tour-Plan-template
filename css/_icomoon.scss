@@ -32,6 +32,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-quotes:before {
+  content: "\e911";  
+}
 .icon-calendar:before {
   content: "\e900";
 }

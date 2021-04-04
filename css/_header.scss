@@ -1,7 +1,7 @@
 .pre-header{
   padding-top: 24px;
   padding-bottom: 24px;
-  background-color: #fff;
+  background-color: $bg-color;
 }
 
 .header-links{
@@ -51,6 +51,7 @@
 
 .header-midle{
   padding: 40px 0px;
+  background-color: $wh-color;
 }
 .header-midle__row{
   align-items: center;
