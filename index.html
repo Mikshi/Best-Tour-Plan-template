@@ -18,14 +18,14 @@
     <div class="pre-header">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8">
+          <div class="col-lg-8 col-md-7 ">
             <div class="header-tel">
               <a href="tel:+123451500" class="simpl-link">
                 <span class="font-700">Questions? Need Help? </span>Call us on (+123) 456 1500
               </a>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-5">
             <ul class="header-links">
               <li class="header-links__item">
                 <a href="#" class="header-links__item-icon simpl-link">
@@ -47,13 +47,13 @@
     <div class="header-midle">
       <div class="container">
         <div class="row header-midle__row">
-          <div class="col-lg-3">
+          <div class="col-md-3">
             <div class="header-midle__logo">
               <a href="#" class="header-midle__logo-link"><img src="./img/logo_h.svg" alt="logo hotel"
                   class="header-midle__logo-img"></a>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <form class="header-midle__search-form">
               <input type="text" aria-label="search input" class="header-midle__search-form-input"
                 placeholder="Search Location">
@@ -62,7 +62,7 @@
               </button>
             </form>
           </div>
-          <div class="col-lg-3 offset-2 header-midle__cart">
+          <div class="col-md-3 offset-md-2  header-midle__cart">
             <div class="header-midle__cart-user">
               <a href="#" class="header-midle__cart-user-link">
                 <span class="icon icon-cart">
@@ -73,14 +73,14 @@
               </a>
             </div>
             <div class="header-midle__user">
-              <picture>
-                <source srcset="img/profile/profile_1x.webp 1x,
-                                img/profile/profile_2x.webp 2x" type="image/webp">
-                <source srcset="img/profile/profile_1x.jpg 1x,
-                                img/profile/profile_2x.jpg 2x" type="image/jpeg">
-                <img src="img/profile/profile_1x.jpg" loading="lazy" alt="user foto" class="header-midle__user-foto">
-              </picture>
               <a href="#" class="header-midle__user-link">
+                <picture>
+                  <source srcset="img/profile/profile_1x.webp 1x,
+                                  img/profile/profile_2x.webp 2x" type="image/webp">
+                  <source srcset="img/profile/profile_1x.jpg 1x,
+                                  img/profile/profile_2x.jpg 2x" type="image/jpeg">
+                  <img src="img/profile/profile_1x.jpg" loading="lazy" alt="user foto" class="header-midle__user-foto">
+                </picture>
                 <p class="header-midle__user-link-name">Nathan</p>
                 <span class="icon icon-down"></span>
               </a>
@@ -124,15 +124,20 @@
       <div class="card-hotel-name">
         <div class="container">
           <div class="row">
-            <div class="col-lg-5">
+            <div class="col-md-8">
               <div class="card-hotel-name__hotel">
                 <div class="card-hotel-rating">
-                  <ul class="card-hotel-rating__stars">
-                    <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
-                    <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
-                    <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
-                    <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
-                    <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
+                  <ul class="card-hotel-rating__stars card-hotel-rating__stars--size hotel-rating-stars">
+                    <li class="card-hotel-rating__stars-item hotel-rating-stars-item"><span
+                        class="icon icon-retingstar icon-retingstar--size"></span></li>
+                    <li class="card-hotel-rating__stars-item hotel-rating-stars-item"><span
+                        class="icon icon-retingstar icon-retingstar--size"></span></li>
+                    <li class="card-hotel-rating__stars-item hotel-rating-stars-item"><span
+                        class="icon icon-retingstar icon-retingstar--size"></span></li>
+                    <li class="card-hotel-rating__stars-item hotel-rating-stars-item"><span
+                        class="icon icon-retingstar icon-retingstar--size"></span></li>
+                    <li class="card-hotel-rating__stars-item hotel-rating-stars-item"><span
+                        class="icon icon-retingstar icon-retingstar--size"></span></li>
                   </ul>
                   <div class="card-hotel-name__hotel-wrap">
                     <h1 class="card-hotel-name__hotel-name">GRAND HILTON HOTEL</h1>
@@ -144,7 +149,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-1 offset-6">
+            <div class="col-md-2 offset-md-2 col-xl-1 offset-xl-3">
               <div class="card-hotel-name__user-rattings">
                 <span class="card-hotel-name__user-rattings-title">User Rattings</span>
                 <div class="card-hotel-name__user-rattings-counts">
@@ -158,18 +163,23 @@
       <div class="card-hotel-location">
         <div class="container">
           <div class="row">
-            <div class="col-lg-8">
+            <div class="col-xl-8">
               <div class="card-hotel-location__slide">
                 <picture class="card-hotel-location__slide-gradient">
+                  <source media="(max-width: 576px)" srcset="./img/slider/md/slide_1x.webp 1x,
+                                  ./img/slider/md/slide_2x.webp 2x" type="image/webp">
+                  <source media="(max-width: 576px)" srcset="./img/slider/md/slide_1x.jpg 1x,
+                                  ./img/slider/md/slide_2x.jpg 2x" type="image/jpeg">
                   <source srcset="./img/slider/slide_1x.webp 1x,
                                   ./img/slider/slide_2x.webp 2x" type="image/webp">
                   <source srcset="./img/slider/slide_1x.jpg 1x,
                                   ./img/slider/slide_2x.jpg 2x" type="image/jpeg">
-                  <img src="./img/slider/slide_1.jpg" loading="lazy" alt="hotel slide">
+                  <img src="./img/slider/slide_1x.jpg" class="card-hotel-location__slide-gradient-img hotel-img"
+                    loading="lazy" alt="hotel slide">
                 </picture>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-xl-4">
               <div class="view-options">
                 <div class="view-options__price">
                   <div class="view-options__price-wrap">
@@ -214,6 +224,7 @@
     <section class="package">
       <div class="package__menu">
         <div class="container">
+          <h2 class="hide">Package Summery tabs</h2>
           <nav class="package__body">
             <ul class="package__list">
               <li class="package__list-item"><a href="#"
@@ -234,7 +245,7 @@
           <h2 class="package-summery__title">Package Summery</h2>
           <div class="row">
             <div class="col-lg-6">
-              <h3 class="package-summery__title-higlights">Package Highlights</h3>
+              <h3 class="package-summery-title">Package Highlights</h3>
               <div class="package-summery__body">
                 <ul class="package-summery__list">
                   <li class="package-summery__list-item"><span class="package-summery__list-item-txt">Half Board/ All
@@ -251,7 +262,7 @@
               </div>
             </div>
             <div class="col-lg-6">
-              <h3 class="package-summery__title-higlights">Offer Details</h3>
+              <h3 class="package-summery-title">Offer Details</h3>
               <div class="package-summery__body">
                 <ul class="package-summery__list">
                   <li class="package-summery__list-item">
@@ -277,108 +288,108 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              <h3 class="package-summery__title-higlights">Package Summery Details</h3>
-              <div class="package-summery__body-details">
-                <div class="package-summery__body-details-wrap">
-                  <div class="package-summery__body-details-section">
-                    <h4 class="package-summery__body-section-title">Purchase Inclusions</h4>
-                    <ul class="package-summery__list-details">
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">Room as per
+              <h3 class="package-summery-title">Package Summery Details</h3>
+              <div class="package-summery-details__body">
+                <div class="package-summery-details__body-wrap">
+                  <div class="package-summery-details__body-section">
+                    <h4 class="package-summery-details__body-section-title">Purchase Inclusions</h4>
+                    <ul class="package-summery-details__list">
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">Room as per
                           selection</span></li>
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">Half Board or
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">Half Board or
                           All Inclusive Meal Plan</span></li>
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">Complimentary
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">Complimentary
                           Land & Water activities</span></li>
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">Child Under 11
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">Child Under 11
                           years old stays free</span></li>
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">Free
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">Free
                           Wi-Fi</span>
                       </li>
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">Free
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">Free
                           Secure
                           Parking</span>
                       </li>
                     </ul>
                   </div>
-                  <div class="package-summery__body-details-section">
-                    <h4 class="package-summery__body-section-title">Complimentary Land Based Activities</h4>
-                    <ul class="package-summery__list-details">
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">Gym</span></li>
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">Beach
+                  <div class="package-summery-details__body-section">
+                    <h4 class="package-summery-details__body-section-title">Complimentary Land Based Activities</h4>
+                    <ul class="package-summery-details__list">
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">Gym</span></li>
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">Beach
                           Volley</span></li>
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-detailsitem-txt">Table
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-txt">Table
                           tennis</span></li>
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">Soccer
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">Soccer
                           balls</span></li>
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">Yoga</span>
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">Yoga</span>
                       </li>
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">Unlimited access
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">Unlimited access
                           to driving range</span>
                       </li>
                     </ul>
                   </div>
-                  <div class="package-summery__body-details-section">
-                    <h4 class="package-summery__body-section-title">Complimentary Water Based Activities</h4>
-                    <ul class="package-summery__list-details">
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">Water
+                  <div class="package-summery-details__body-section">
+                    <h4 class="package-summery-details__body-section-title">Complimentary Water Based Activities</h4>
+                    <ul class="package-summery-details__list">
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">Water
                           skiing</span></li>
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">Windsurfing</span></li>
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">Pedal
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">Windsurfing</span></li>
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">Pedal
                           boats</span></li>
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">Kayaking</span>
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">Kayaking</span>
                       </li>
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">Aqua Gym</span>
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">Aqua Gym</span>
                       </li>
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">Glass bottom
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">Glass bottom
                           boat trips</span>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <div class="package-summery__body-details-wrap">
-                  <div class="package-summery__body-details-section">
-                    <h4 class="package-summery__body-section-title">Meal Plan Available</h4>
-                    <ul class="package-summery__list-details">
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">Half Board</span></li>
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">All Inclusive</span></li>
+                <div class="package-summery-details__body-wrap">
+                  <div class="package-summery-details__body-section">
+                    <h4 class="package-summery-details__body-section-title">Meal Plan Available</h4>
+                    <ul class="package-summery-details__list">
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">Half Board</span></li>
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">All Inclusive</span></li>
                     </ul>
                   </div>
-                  <div class="package-summery__body-details-section">
-                    <h4 class="package-summery__body-section-title">Entertainment</h4>
-                    <ul class="package-summery__list-details">
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">Live music</span></li>
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">DJ & Mauritian Dance Show</span></li>
+                  <div class="package-summery-details__body-section">
+                    <h4 class="package-summery-details__body-section-title">Entertainment</h4>
+                    <ul class="package-summery-details__list">
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">Live music</span></li>
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">DJ & Mauritian Dance Show</span></li>
                     </ul>
                   </div>
-                  <div class="package-summery__body-details-section">
-                    <h4 class="package-summery__body-section-title">Check In & Check Out</h4>
-                    <ul class="package-summery__list-details">
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">Check In Time 14:00</span></li>
-                      <li class="package-summery__list-details-item"><span
-                          class="package-summery__list-details-item-txt">Check Out Time 11:00</span></li>
+                  <div class="package-summery-details__body-section">
+                    <h4 class="package-summery-details__body-section-title">Check In & Check Out</h4>
+                    <ul class="package-summery-details__list">
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">Check In Time 14:00</span></li>
+                      <li class="package-summery-details__list-item"><span
+                          class="package-summery-details__list-item-txt">Check Out Time 11:00</span></li>
                     </ul>
                   </div>
                 </div>
@@ -389,35 +400,43 @@
       </div>
     </section>
     <section class="other-package">
-      <div class="container">
-        <h2 class="other-package-title">Other Packages</h2>
-      </div>
       <div class="other-package-wrap">
         <div class="container">
+          <h2 class="other-package-title">Other Packages</h2>
           <div class="row">
-            <div class="col-lg-8">
+            <div class="col-md-12 col-lg-8">
               <div class="other-package-hotel other-package-hotel--active">
                 <div class="other-package-hotel__img">
                   <div class="other-package-hotel__btn"><a href="#"
                       class="other-package-hotel__btn-link other-package-hotel__btn-link--active main-btn">Flash
                       Offer</a></div>
                   <picture class="other-package-hotel__img-gradient">
+                    <source media="(max-width: 576px)" srcset="./img/packages/01/md/packages_blue_haven_1x.webp 1x,
+                                    ./img/packages/01/md/packages_blue_haven_2x.webp 2x" type="image/webp">
+                    <source media="(max-width: 576px)" srcset="./img/packages/01/md/packages_blue_haven_1x.jpg 1x,
+                                    ./img/packages/01/md/packages_blue_haven_2x.jpg 2x" type="image/jpeg">
                     <source srcset="./img/packages/01/packages_blue_haven_1x.webp 1x,
                                     ./img/packages/01/packages_blue_haven_2x.webp 2x" type="image/webp">
                     <source srcset="./img/packages/01/packages_blue_haven_1x.jpg 1x,
                                     ./img/packages/01/packages_blue_haven_2x.jpg 2x" type="image/jpeg">
-                    <img src="./img/packages/01/packages_blue_haven_1x.jpg" loading="lazy" alt="hotel foto package">
+                    <img src="./img/packages/01/packages_blue_haven_1x.jpg"
+                      class="other-package-hotel__img-gradient-img" loading="lazy" alt="hotel foto package">
                   </picture>
                 </div>
                 <div class="other-package-hotel__wrap">
                   <div class="other-package-hotel__desc">
                     <div class="card-hotel-rating">
-                      <ul class="card-hotel-rating__stars">
-                        <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
-                        <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
-                        <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
-                        <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
-                        <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
+                      <ul class="card-hotel-rating__stars hotel-rating-stars">
+                        <li class="card-hotel-rating__stars-item hotel-rating-stars-item"><span
+                            class="icon icon-retingstar"></span></li>
+                        <li class="card-hotel-rating__stars-item hotel-rating-stars-item"><span
+                            class="icon icon-retingstar"></span></li>
+                        <li class="card-hotel-rating__stars-item hotel-rating-stars-item"><span
+                            class="icon icon-retingstar"></span></li>
+                        <li class="card-hotel-rating__stars-item hotel-rating-stars-item"><span
+                            class="icon icon-retingstar"></span></li>
+                        <li class="card-hotel-rating__stars-item hotel-rating-stars-item"><span
+                            class="icon icon-retingstar"></span></li>
                       </ul>
                       <h3 class="other-package-hotel__desc-title">Hotel Blue Haven</h3>
                     </div>
@@ -445,7 +464,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-md-6 col-lg-4">
               <div class="other-package-hotel">
                 <div class="other-package-hotel__img">
                   <div class="other-package-hotel__btn"><a href="#" class="other-package-hotel__btn-link main-btn">Flash
@@ -455,7 +474,8 @@
                                     ./img/packages/02/packages_lux_belle_mare2x.webp 2x" type="image/webp">
                     <source srcset="./img/packages/02/packages_lux_belle_mare1x.jpg 1x,
                                     ./img/packages/02/packages_lux_belle_mare2x.jpg 2x" type="image/jpeg">
-                    <img src="./img/packages/02/packages_lux_belle_mare1x.jpg" loading="lazy" alt="hotel foto package">
+                    <img src="./img/packages/02/packages_lux_belle_mare1x.jpg" class="hotel-img" loading="lazy"
+                      alt="hotel foto package">
                   </picture>
                 </div>
                 <div class="other-package-hotel__desc">
@@ -479,13 +499,8 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="other-package-wrap">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4">
+
+            <div class="col-md-6 col-lg-4">
               <div class="other-package-hotel">
                 <div class="other-package-hotel__img">
                   <div class="other-package-hotel__btn"><a href="#" class="other-package-hotel__btn-link main-btn">Flash
@@ -495,7 +510,8 @@
                                     ./img/packages/03/packages_white_palace_2x.webp 2x" type="image/webp">
                     <source srcset="./img/packages/03/packages_white_palace_1x.jpg 1x,
                                     ./img/packages/03/packages_white_palace_2x.jpg 2x" type="image/jpeg">
-                    <img src="./img/packages/03/packages_white_palace_1x.jpg" loading="lazy" alt="hotel foto package">
+                    <img src="./img/packages/03/packages_white_palace_1x.jpg" class="hotel-img" loading="lazy"
+                      alt="hotel foto package">
                   </picture>
                 </div>
                 <div class="other-package-hotel__desc">
@@ -519,7 +535,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-md-6 col-lg-4">
               <div class="other-package-hotel">
                 <div class="other-package-hotel__img">
                   <div class="other-package-hotel__btn"><a href="#" class="other-package-hotel__btn-link main-btn">Flash
@@ -529,7 +545,8 @@
                                     ./img/packages/04/packages_luxury_place_2x.webp 2x" type="image/webp">
                     <source srcset="./img/packages/04/packages_luxury_place_1x.jpg 1x,
                                     ./img/packages/04/packages_luxury_place_2x.jpg 2x" type="image/jpeg">
-                    <img src="./img/packages/04/packages_luxury_place_1x.jpg" loading="lazy" alt="hotel foto package">
+                    <img src="./img/packages/04/packages_luxury_place_1x.jpg" class="hotel-img" loading="lazy"
+                      alt="hotel foto package">
                   </picture>
                 </div>
                 <div class="other-package-hotel__desc">
@@ -553,7 +570,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-md-6 col-lg-4">
               <div class="other-package-hotel">
                 <div class="other-package-hotel__img">
                   <div class="other-package-hotel__btn"><a href="#" class="other-package-hotel__btn-link main-btn">Flash
@@ -563,7 +580,7 @@
                                     ./img/packages/05/packages_hotel_five_star_2x.webp 2x" type="image/webp">
                     <source srcset="./img/packages/05/packages_hotel_five_star_1x.jpg 1x,
                                     ./img/packages/05/packages_hotel_five_star_2x.jpg 2x" type="image/jpeg">
-                    <img src="./img/packages/05/packages_hotel_five_star_1x.jpg" loading="lazy"
+                    <img src="./img/packages/05/packages_hotel_five_star_1x.jpg" class="hotel-img" loading="lazy"
                       alt="hotel foto package">
                   </picture>
                 </div>
@@ -588,69 +605,64 @@
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
+
     </section>
     <section class="slide-people">
       <div class="container">
         <h2 class="slide-people-title">What people thinks about us</h2>
-        <div class="row">
-          <div class="col-lg-1 flex-arrow">
-            <div class="slide-people-slider__arrow">
-              <a href="#" class="slide-people-slider__arrow-link"><span
-                  class="slide-people-slider__left-arrow icon-down"></span></a>
-            </div>
-          </div>
-          <div class="col-lg-8 offset-1">
-            <div class="slide-people-wrap">
-              <div class="slide-people-slider">
-                <div class="slide-people-slider__content">
-                  <div class="slide-people-slider__content-profile">
-                    <div class="slide-people-slider__content-profile-user">
-                      <picture>
-                        <source srcset="img/reviews/reviews_1x.webp 1x,
-                                        img/reviews/reviews_2x.webp 2x" type="image/webp">
-                        <source srcset="img/reviews/reviews_1x.jpg 1x,
-                                        img/reviews/reviews_2x.jpg 2x" type="image/jpeg">
-                        <img src="img/reviews/reviews_1x.jpg" loading="lazy" alt="user foto"
-                          class="slide-people-user-foto">
-                      </picture>
-                      <div class="slide-people-slider__content-profile-user-desc">
-                        <p class="slide-people-slider__content-profile-user-name">Megan Fox</p>
-                        <p class="slide-people-slider__content-profile-user-date">Stayed 18 Nov, 2019</p>
-                        <ul class="card-hotel-rating__stars">
-                          <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
-                          <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
-                          <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
-                          <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
-                          <li class="card-hotel-rating__stars-item"><span class="icon icon-retingstar"></span></li>
-                        </ul>
-                      </div>
-                    </div>
+        <div class="slide-people-wrap">
+          <div class="slide-people-slider">
+            <div class="slide-people-slider__content">
+              <div class="slide-people-slider__content-profile">
+                <div class="slide-people-slider__content-profile-user">
+                  <picture>
+                    <source srcset="img/reviews/reviews_1x.webp 1x,
+                                    img/reviews/reviews_2x.webp 2x" type="image/webp">
+                    <source srcset="img/reviews/reviews_1x.jpg 1x,
+                                    img/reviews/reviews_2x.jpg 2x" type="image/jpeg">
+                    <img src="img/reviews/reviews_1x.jpg" loading="lazy" alt="user foto" class="slide-people-user-foto">
+                  </picture>
+                  <div class="slide-people-slider__content-profile-user-desc">
+                    <p class="slide-people-slider__content-profile-user-name">Megan Fox</p>
+                    <p class="slide-people-slider__content-profile-user-date">Stayed 18 Nov, 2019</p>
+                    <ul class="hotel-rating-stars">
+                      <li class="hotel-rating-stars-item"><span class="icon icon-retingstar"></span></li>
+                      <li class="hotel-rating-stars-item"><span class="icon icon-retingstar"></span></li>
+                      <li class="hotel-rating-stars-item"><span class="icon icon-retingstar"></span></li>
+                      <li class="hotel-rating-stars-item"><span class="icon icon-retingstar"></span></li>
+                      <li class="hotel-rating-stars-item"><span class="icon icon-retingstar"></span></li>
+                    </ul>
                   </div>
-                  <div class="slide-people-slider__content-quotes">
-                    <span class="icon-quotes quotes-top"></span>
-                    <span class="icon-quotes quotes-bottom"></span>
-                  </div>
-                  <p class="slide-people-slider__content-txt">It was very nice hotel with cleanliness. Staff behavior
-                    was
-                    good and polite. They welcome us very well. Issue was only that Lift was not in working and we were
-                    allotted to 3rd floor and amenities articles were in corner of gallery which were giving bad
-                    feeling.
-                    Breakfast was good and support of the staff was also very nice. Location is not good as per
-                    atmosphere,
-                    it is very nearby most of the popular places but self location in a narrow street is not good.
-                    Overall
-                    it was a good experience and could recommend. </p>
                 </div>
               </div>
+              <div class="slide-people-slider__content-quotes">
+                <span class="icon-quotes quotes-top"></span>
+                <span class="icon-quotes quotes-bottom"></span>
+              </div>
+              <p class="slide-people-slider__content-txt">It was very nice hotel with cleanliness. Staff behavior
+                was
+                good and polite. They welcome us very well. Issue was only that Lift was not in working and we were
+                allotted to 3rd floor and amenities articles were in corner of gallery which were giving bad
+                feeling.
+                Breakfast was good and support of the staff was also very nice. Location is not good as per
+                atmosphere,
+                it is very nearby most of the popular places but self location in a narrow street is not good.
+                Overall
+                it was a good experience and could recommend. </p>
             </div>
           </div>
-          <div class="col-lg-1 offset-1 flex-arrow">
-            <div class="slide-people-slider__arrow">
-              <a href="#" class="slide-people-slider__arrow-link"><span
-                  class="slide-people-slider__rigth-arrow icon-down"></span></a>
+          <div class="slide-people-arrow">
+            <div class="slide-people-arrow__slide">
+              <a href="#" class="slide-people-arrow__slide-link"><span
+                  class="slide-people-arrow__slide-link-left icon-down"></span></a>
+            </div>
+            <div class="slide-people-arrow__slide">
+              <a href="#" class="slide-people-arrow__slide-link"><span
+                  class="slide-people-arrow__slide-link-rigth icon-down"></span></a>
             </div>
           </div>
         </div>
@@ -891,18 +903,15 @@
             <form class="footer-form-message__form">
               <div class="footer-form-message__form-row">
                 <div class="footer-form-message__form-row-input">
-                  <label for="name"></label>
                   <input class="footer-form-message__form-row-input-txt" name="name" type="text"
                     placeholder="Your Full Name*">
                 </div>
                 <div class="footer-form-message__form-row-input">
-                  <label for="phone"></label>
                   <input class="footer-form-message__form-row-input-txt" name="phone" type="tel"
                     placeholder="Phone Number*">
                 </div>
               </div>
               <div class="footer-form-message__form-row-input">
-                <label for="messages"></label>
                 <textarea class="footer-form-message__form-row-input-textaria" name="messages"
                   placeholder="Message"></textarea>
               </div>
@@ -939,9 +948,6 @@
               <img src="img/pay/paylogo_1x.jpg" loading="lazy" alt="pay logo" class="pay-logo__picture-img">
             </picture>
           </div>
-        </div>
-        <div class="col-lg-12">
-
         </div>
       </div>
     </div>
