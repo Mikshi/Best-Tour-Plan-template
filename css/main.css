@@ -4081,6 +4081,7 @@ button {
   -o-transition: box-shadow ease-in-out 0.3s;
   transition: box-shadow ease-in-out 0.3s;
   transition: box-shadow ease-in-out 0.3s, -webkit-box-shadow ease-in-out 0.3s;
+  border-radius: 8px;
 }
 
 .slide-people-arrow__slide-link:hover {
