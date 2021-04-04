@@ -328,6 +328,8 @@
 .disclaimer{
   display: flex;
   justify-content: center;
+  position: relative;
+  z-index: 1;
 }
 .disclaimer-wrap{
   padding-top: 50px;
@@ -350,6 +352,10 @@
   font-size: 12px;
   line-height: 15px;
   color: $wh-color;
+  &:hover{
+    color: #bdbdbd;
+    text-decoration: underline;
+  }
 }
 .pay-logo{
   position: absolute;
