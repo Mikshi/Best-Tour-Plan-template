@@ -829,7 +829,7 @@
   padding-top: 45px;
   padding-bottom: 45px;  
   background-image: url("../img/bg/bg_1x.jpg");
-  @include retina-background-image("../img/bg/bg", "webp", 50%, 50%);  
+  @include retina-background-image("../img/bg/bg", "webp", cover, 0%);  
   background-size: cover;
   @include media-breakpoint-up(sm) {     
     padding-top: 95px;
