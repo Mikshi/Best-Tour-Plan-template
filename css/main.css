@@ -4085,6 +4085,16 @@ button {
   display: -ms-flexbox;
   display: flex;
   padding: 20px;
+  -webkit-transition: -webkit-box-shadow ease-in-out 0.3s;
+  transition: -webkit-box-shadow ease-in-out 0.3s;
+  -o-transition: box-shadow ease-in-out 0.3s;
+  transition: box-shadow ease-in-out 0.3s;
+  transition: box-shadow ease-in-out 0.3s, -webkit-box-shadow ease-in-out 0.3s;
+}
+
+.slide-people-arrow__slide-link:hover {
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .slide-people-arrow__slide-link-left {
@@ -4982,6 +4992,8 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
+  z-index: 1;
 }
 
 .disclaimer-wrap {
@@ -5016,6 +5028,11 @@ button {
   font-size: 12px;
   line-height: 15px;
   color: white;
+}
+
+.disclaimer__list-item-link:hover {
+  color: #bdbdbd;
+  text-decoration: underline;
 }
 
 .pay-logo {
