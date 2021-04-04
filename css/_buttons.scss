@@ -1,0 +1,15 @@
+.main-btn{
+  background-color: $primary-color;
+  color: $wh-color;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 13px;
+  width: 100%;
+  transition: box-shadow 0.5s ease-in 0.3s, text-decoration 0.5s;
+  &:hover{
+    box-shadow: 0 0 0 4px rgba($color: $wh-color, $alpha: 0.3);
+    text-decoration: underline;
+  }
+}
