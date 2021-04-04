@@ -3316,6 +3316,12 @@ button {
 }
 
 /*-----------sec-2--------------*/
+.hide {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+}
+
 .package__body {
   margin-bottom: 40px;
 }
@@ -4130,6 +4136,7 @@ button {
 .subs-section {
   padding-top: 45px;
   padding-bottom: 45px;
+  background-image: url("../img/bg/bg_1x.jpg");
   background-image: url("../img/bg/bg_1x.webp");
   background-size: cover;
 }

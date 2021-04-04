@@ -166,11 +166,15 @@
             <div class="col-xl-8">
               <div class="card-hotel-location__slide">
                 <picture class="card-hotel-location__slide-gradient">
+                  <source media="(max-width: 576px)" srcset="./img/slider/md/slide_1x.webp 1x,
+                                  ./img/slider/md/slide_2x.webp 2x" type="image/webp">
+                  <source media="(max-width: 576px)" srcset="./img/slider/md/slide_1x.jpg 1x,
+                                  ./img/slider/md/slide_2x.jpg 2x" type="image/jpeg">
                   <source srcset="./img/slider/slide_1x.webp 1x,
                                   ./img/slider/slide_2x.webp 2x" type="image/webp">
                   <source srcset="./img/slider/slide_1x.jpg 1x,
                                   ./img/slider/slide_2x.jpg 2x" type="image/jpeg">
-                  <img src="./img/slider/slide_1.jpg" class="card-hotel-location__slide-gradient-img hotel-img"
+                  <img src="./img/slider/slide_1x.jpg" class="card-hotel-location__slide-gradient-img hotel-img"
                     loading="lazy" alt="hotel slide">
                 </picture>
               </div>
@@ -220,6 +224,7 @@
     <section class="package">
       <div class="package__menu">
         <div class="container">
+          <h2 class="hide">Package Summery tabs</h2>
           <nav class="package__body">
             <ul class="package__list">
               <li class="package__list-item"><a href="#"
@@ -406,6 +411,10 @@
                       class="other-package-hotel__btn-link other-package-hotel__btn-link--active main-btn">Flash
                       Offer</a></div>
                   <picture class="other-package-hotel__img-gradient">
+                    <source media="(max-width: 576px)" srcset="./img/packages/01/md/packages_blue_haven_1x.webp 1x,
+                                    ./img/packages/01/md/packages_blue_haven_2x.webp 2x" type="image/webp">
+                    <source media="(max-width: 576px)" srcset="./img/packages/01/md/packages_blue_haven_1x.jpg 1x,
+                                    ./img/packages/01/md/packages_blue_haven_2x.jpg 2x" type="image/jpeg">
                     <source srcset="./img/packages/01/packages_blue_haven_1x.webp 1x,
                                     ./img/packages/01/packages_blue_haven_2x.webp 2x" type="image/webp">
                     <source srcset="./img/packages/01/packages_blue_haven_1x.jpg 1x,
@@ -894,18 +903,15 @@
             <form class="footer-form-message__form">
               <div class="footer-form-message__form-row">
                 <div class="footer-form-message__form-row-input">
-                  <label for="name"></label>
                   <input class="footer-form-message__form-row-input-txt" name="name" type="text"
                     placeholder="Your Full Name*">
                 </div>
                 <div class="footer-form-message__form-row-input">
-                  <label for="phone"></label>
                   <input class="footer-form-message__form-row-input-txt" name="phone" type="tel"
                     placeholder="Phone Number*">
                 </div>
               </div>
               <div class="footer-form-message__form-row-input">
-                <label for="messages"></label>
                 <textarea class="footer-form-message__form-row-input-textaria" name="messages"
                   placeholder="Message"></textarea>
               </div>
