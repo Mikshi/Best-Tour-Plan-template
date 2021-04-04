@@ -1,0 +1,240 @@
+.breadcrumbs{
+  padding: 18px 0; 
+}
+.breadcrumbs-list{
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.breadcrumbs-list__item{  
+  font-size: 10px;
+  &:not(:first-child){
+    padding-left: 5px;  
+  }
+  &:hover{
+    text-decoration: underline;
+  }
+}
+.breadcrumbs-list__item-link{  
+  line-height: 13px;
+  font-weight: 300;
+}
+.pading-rigth-5{
+  padding-right: 5px;
+}
+
+.card-hotel-name{
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+.card-hotel-stars{
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.icon-retingstar{
+  font-size: 6px;
+  color: #f2994a;
+}
+.card-hotel-name__hotel-wrap{
+  display: flex;
+  align-items: center;
+}
+.card-hotel-name__hotel-name{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.card-hotel-name__hotel-link{
+  background: #ec1f46;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  color: white;
+  padding: 4px 6px;
+  margin-left: 14px;
+}
+.card-hotel-name__hotel-child{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #333;
+  margin: 0;
+}
+.card-hotel-name__user-rattings{
+  background: #ec1f46;
+  border-radius: 4px;  
+  color: white;
+  text-align: center;  
+  margin-top: 22px;
+  height: 45px;
+  padding: 5px 5px;
+}
+.card-hotel-name__user-rattings-title{
+  display: flex;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 10px;
+  margin-bottom: 2px;
+}
+.current{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+}
+.total{
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 14px;
+}
+.card-hotel-location{
+  padding-bottom: 68px;
+}
+.card-hotel-location__slide{
+  position: relative;  
+  border-radius: 8px;
+  overflow: hidden;
+  
+}
+
+.card-hotel-location__slide-gradient:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 1px;
+  bottom: 0;
+  left: 0; 
+  background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
+}
+
+.view-options{
+  background-color: $secondary-color;
+  border-radius: 8px;  
+  padding: 28px;
+  margin-bottom: 27px;
+}
+.view-options__price-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.view-options__price-col-1{
+  display: inline-flex;
+  flex-direction: column;
+}
+.view-options__price-title{
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+}
+.view-options__price-stats{
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+}
+.view-options__price-day{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+.view-options__price-col-2{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80px;
+  height: 40px;
+}
+.view-options__price-guests{
+  display: flex;
+  justify-content: space-between;
+}
+.icon-user{
+  color: $wh-color;
+}
+.view-options__price-guests-title{
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.view-options__price-room{
+  display: flex;
+  justify-content: space-between;
+}
+.icon-home{
+  color: $wh-color;
+}
+.view-options__price-room-title{
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+
+.view-options__price-title{
+  color: $wh-color;
+}
+.view-options__price-stats{
+  color: $wh-color;
+}
+.view-options__price-day{
+  color: $wh-color;
+}
+
+
+.view-options__price-guests-title{
+  color: $wh-color;
+}
+.view-options__price-room-title{
+  color: $wh-color;
+}
+.view-options__booking{
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+.view-options__booking-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+.view-options__booking-title{
+  color: $wh-color;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.view-options__booking-call{
+  display: flex;
+  align-items: center;
+}
+.icon-phone{
+  color: $wh-color;
+  padding-right: 8px;
+}
+.view-options__booking-call-title{
+  color: $wh-color;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.view-options__button{
+  background-color: $primary-color;
+  color: $wh-color;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 13px;
+  width: 100%;
+  transition: box-shadow 0.5s ease-in 0.3s, text-decoration 0.5s;
+  &:hover{
+    box-shadow: 0 0 0 4px rgba($color: $wh-color, $alpha: 0.3);
+    text-decoration: underline;
+  }
+}
+.iframe-map__location{
+  width: 100%;
+  height: 213px;
+  border-radius: 8px;  
+}
