@@ -1,0 +1,45 @@
+body{
+  font-family: $primary-font;
+}
+a,
+a:hover{
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+img,
+video,picture{
+  max-width: 100%;
+}
+
+
+.icon-check:before {  
+  color: #fff;
+}
+.icon-email:before {  
+  color: #bdbdbd;
+}
+.icon-fb:before { 
+  color: #bdbdbd;
+}
+.icon-home:before {
+  color: #fff;
+}
+.icon-insta:before {
+  color: #bdbdbd;
+}
+.icon-locpin:before {
+  color: #fff;
+}
+.icon-phone:before {
+  color: #fff;
+}
+.icon-search:before {
+  color: #fff;
+}
+.icon-user:before {
+  color: #fff;
+}
+.icon-youtube:before {
+  color: #bdbdbd;
+}
