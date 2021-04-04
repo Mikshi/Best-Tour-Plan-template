@@ -1,0 +1,241 @@
+.footer{
+  background-color: $secondary-color;
+  padding: 46px;
+}
+.pt-62{
+  padding-top: 62px;
+  padding-bottom: 100px;
+}
+.footer-logo{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.footer-categories{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+.footer-categories{
+  padding: 0 100px;
+}
+.footer-categories-all{
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-addition-cat{
+  display: flex;  
+  justify-content: space-between;
+}
+.footer-categories-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-info-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-addition{
+  padding-bottom: 24px;
+}
+.footer-title{
+  color: $wh-color;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.footer-link{
+  color: #bdbdbd;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  &:hover{
+    color: $wh-color;
+    text-decoration: underline;
+  }
+}
+.footer-info-social{
+  display: flex;
+  align-items: center;
+}
+.footer-info-social__title{  
+  padding-right: 42px;
+  margin: 0;
+}
+.footer-info-social__list{
+  display: flex;
+  justify-content: space-between;
+  width: 86px;
+  height: 20px;
+}
+.icon-socia{
+  font-size: 20px;
+  display: inline-flex;
+}
+.icon-fb{
+
+}
+.icon-youtube{
+
+}
+.icon-insta{
+
+}
+.footer-contact__title{
+  margin-bottom: 24px;
+}
+.footer-txt{
+  color: #bdbdbd;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.footer-contact__txt{
+
+}
+.footer-contact__email{
+
+}
+.footer-contact__email-list{
+  display: flex;
+  flex-direction: column;
+}
+.footer-contact__email-list-item {
+  display: flex;
+  padding-top: 22px;
+  align-items: center;
+}
+.footer-contact__email-list-item--location:before{
+  content: '\e912';
+  font-family: 'icomoon' !important;
+  width: 15px;
+  height: 20px;
+  font-size: 20px;
+  display: inline-flex;    
+  justify-content: center;
+  align-items: center;
+  color: #bdbdbd;
+  margin-right: 20px;
+}
+.footer-contact__email-list-item--phone{
+  align-items: flex-start;
+  &:before{
+    content: '\e913';
+    font-family: 'icomoon' !important;
+    width: 15px;
+    height: 20px;
+    font-size: 20px;
+    display: inline-flex;    
+    justify-content: center;
+    align-items: center;
+    color: #bdbdbd;
+    margin-right: 20px;
+  }
+}
+.footer-contact__email-list-item--email:before{
+  content: '\e904';
+  font-family: 'icomoon' !important;
+  width: 15px;
+  height: 20px;
+  font-size: 20px;
+  display: inline-flex;    
+  justify-content: center;
+  align-items: center;
+  color: #bdbdbd;
+  margin-right: 20px;
+}
+.footer-contact__email-list-item-wrap{
+  display: flex;
+  flex-direction: column;
+}
+.footer-contact__email-list-item-txt{
+  width: auto;
+}
+
+.footer-form-message__form{
+
+}
+.footer-form-message__form-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer-form-message__form-row-input{
+  display: flex;
+  border-radius: 4px;
+}
+.footer-form-message__form-row-input-textaria{
+  width: 100%;
+  min-height: 124px;
+  border-radius: 4px;
+  padding: 18px 24px;
+  margin-bottom: 22px;
+  color: #bdbdbd;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+.footer-form-message__form-row-input-txt{
+  min-width: 255px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  border-radius: 4px;
+  color: #bdbdbd;
+  padding: 18px 24px;
+  margin-bottom: 15px;
+}
+.footer-form-message__form-row-button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-form-message__form-row-btn{
+  width: auto;
+  padding: 18px 66px;
+
+}
+.footer-form-message__form-row-button-txt{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: $wh-color;
+}
+.disclaimer{
+  display: flex;
+  justify-content: center;
+}
+.disclaimer-wrap{
+  padding-top: 102px;
+  padding-bottom: 46px;
+}
+.disclaimer__list{
+  display: flex;  
+}
+.disclaimer__list-item{
+  padding-right: 10px;
+}
+.disclaimer__list-item-link{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: $wh-color;
+}
+.pay-logo{
+  position: absolute;
+  right: 0;
+  bottom: 25%;
+  display: flex;  
+}
+.pay-logo__picture{
+
+}
+.pay-logo__picture-img{
+  width: 136px;
+}
