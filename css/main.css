@@ -2590,7 +2590,8 @@ button {
 
 @media (min-width: 768px) {
   .header-midle {
-    padding: 40px 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 
