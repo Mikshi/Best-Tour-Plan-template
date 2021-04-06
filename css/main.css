@@ -3359,6 +3359,7 @@ button {
   padding-top: 14px;
   padding-bottom: 14px;
   color: inherit;
+  border-bottom: 4px solid transparent;
   -webkit-transition: border-bottom ease 0.3s color ease-in-out 0.3s;
   -o-transition: border-bottom ease 0.3s color ease-in-out 0.3s;
   transition: border-bottom ease 0.3s color ease-in-out 0.3s;

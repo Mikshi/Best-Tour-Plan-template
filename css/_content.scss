@@ -314,6 +314,7 @@
   padding-top: 14px;
   padding-bottom: 14px;
   color: inherit;
+  border-bottom: 4px solid transparent;
   transition: border-bottom ease 0.3s color ease-in-out 0.3s;
   &:hover{
     border-bottom: 4px solid $primary-color;
